@@ -88,6 +88,7 @@ CREATE TABLE tableocpizza.Bill (
                 billNumber VARCHAR NOT NULL,
                 totalAmount REAL NOT NULL,
                 vatAmount REAL NOT NULL,
+                billStatus BOOLEAN NOT NULL,
                 CONSTRAINT bill_pk PRIMARY KEY (billId)
 );
 
