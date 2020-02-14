@@ -1,4 +1,3 @@
-
 CREATE SEQUENCE tableocpizza.paymenttype_paytypeid_seq_1;
 
 CREATE TABLE tableocpizza.PaymentType (
